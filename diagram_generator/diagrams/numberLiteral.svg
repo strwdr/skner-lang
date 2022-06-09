@@ -1,0 +1,46 @@
+<svg class="railroad-diagram" height="80" viewBox="0 0 481.0 80" width="481.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style><g>
+<path d="M20 30v20m0 -10h120.5"></path><text style="text-anchor:start" x="20" y="25">numberLiteral</text></g><path d="M140.5 40h10"></path><g>
+<path d="M150.5 40h0.0"></path><path d="M431.0 40h0.0"></path><g>
+<path d="M150.5 40h0.0"></path><path d="M233.0 40h0.0"></path><path d="M150.5 40h10"></path><g class="non-terminal ">
+<path d="M160.5 40h0.0"></path><path d="M223.0 40h0.0"></path><rect height="22" width="62.5" x="160.5" y="29"></rect><text x="191.75" y="44">digit</text></g><path d="M223.0 40h10"></path><path d="M160.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path><g>
+<path d="M160.5 60h62.5"></path></g><path d="M223.0 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path></g><path d="M233.0 40h10"></path><g>
+<path d="M243.0 40h0.0"></path><path d="M431.0 40h0.0"></path><path d="M243.0 40a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path><g>
+<path d="M263.0 20h148.0"></path></g><path d="M411.0 20a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><path d="M243.0 40h20"></path><g>
+<path d="M263.0 40h0.0"></path><path d="M411.0 40h0.0"></path><g class="terminal ">
+<path d="M263.0 40h0.0"></path><path d="M308.5 40h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="263.0" y="29"></rect><text x="285.75" y="44">"."</text></g><path d="M308.5 40h10"></path><path d="M318.5 40h10"></path><g>
+<path d="M328.5 40h0.0"></path><path d="M411.0 40h0.0"></path><path d="M328.5 40h10"></path><g class="non-terminal ">
+<path d="M338.5 40h0.0"></path><path d="M401.0 40h0.0"></path><rect height="22" width="62.5" x="338.5" y="29"></rect><text x="369.75" y="44">digit</text></g><path d="M401.0 40h10"></path><path d="M338.5 40a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path><g>
+<path d="M338.5 60h62.5"></path></g><path d="M401.0 60a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path></g></g><path d="M411.0 40h20"></path></g></g><path d="M431.0 40h10"></path><path d="M 441.0 40 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>

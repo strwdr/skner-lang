@@ -1,0 +1,55 @@
+<svg class="railroad-diagram" height="128" viewBox="0 0 853.5 128" width="853.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style><g>
+<path d="M20 62v20m0 -10h112.0"></path><text style="text-anchor:start" x="20" y="57">functionCall</text></g><path d="M132.0 72h10"></path><g class="non-terminal ">
+<path d="M142.0 72h0.0"></path><path d="M247.0 72h0.0"></path><rect height="22" width="105.0" x="142.0" y="61"></rect><text x="194.5" y="76">identifier</text></g><path d="M247.0 72h10"></path><path d="M257.0 72h10"></path><g>
+<path d="M267.0 72h0.0"></path><path d="M803.5 72h0.0"></path><rect class="group-box" height="72" rx="10" ry="10" width="536.5" x="267.0" y="36"></rect><g>
+<path d="M267.0 72h10.0"></path><path d="M793.5 72h10.0"></path><g class="terminal ">
+<path d="M277.0 72h0.0"></path><path d="M322.5 72h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="277.0" y="61"></rect><text x="299.75" y="76">"("</text></g><path d="M322.5 72h10"></path><g>
+<path d="M332.5 72h0.0"></path><path d="M738.0 72h0.0"></path><path d="M332.5 72a10 10 0 0 0 10 -10v-8a10 10 0 0 1 10 -10"></path><g>
+<path d="M352.5 44h365.5"></path></g><path d="M718.0 44a10 10 0 0 1 10 10v8a10 10 0 0 0 10 10"></path><path d="M332.5 72h20"></path><g>
+<path d="M352.5 72h0.0"></path><path d="M718.0 72h0.0"></path><path d="M352.5 72h10"></path><g>
+<path d="M362.5 72h0.0"></path><path d="M708.0 72h0.0"></path><g>
+<path d="M362.5 72h0.0"></path><path d="M467.5 72h0.0"></path><g class="non-terminal ">
+<path d="M362.5 72h0.0"></path><path d="M467.5 72h0.0"></path><rect height="22" width="105.0" x="362.5" y="61"></rect><text x="415.0" y="76">expression</text></g></g><path d="M467.5 72h10"></path><g>
+<path d="M477.5 72h0.0"></path><path d="M708.0 72h0.0"></path><path d="M477.5 72a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path><g>
+<path d="M497.5 52h190.5"></path></g><path d="M688.0 52a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><path d="M477.5 72h20"></path><g>
+<path d="M497.5 72h0.0"></path><path d="M688.0 72h0.0"></path><path d="M497.5 72h10"></path><g>
+<path d="M507.5 72h0.0"></path><path d="M678.0 72h0.0"></path><g class="terminal ">
+<path d="M507.5 72h0.0"></path><path d="M553.0 72h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="507.5" y="61"></rect><text x="530.25" y="76">","</text></g><path d="M553.0 72h10"></path><path d="M563.0 72h10"></path><g class="non-terminal ">
+<path d="M573.0 72h0.0"></path><path d="M678.0 72h0.0"></path><rect height="22" width="105.0" x="573.0" y="61"></rect><text x="625.5" y="76">expression</text></g></g><path d="M678.0 72h10"></path><path d="M507.5 72a10 10 0 0 0 -10 10v0a10 10 0 0 0 10 10"></path><g>
+<path d="M507.5 92h170.5"></path></g><path d="M678.0 92a10 10 0 0 0 10 -10v0a10 10 0 0 0 -10 -10"></path></g><path d="M688.0 72h20"></path></g></g><path d="M708.0 72h10"></path><path d="M362.5 72a10 10 0 0 0 -10 10v8a10 10 0 0 0 10 10"></path><g>
+<path d="M362.5 100h345.5"></path></g><path d="M708.0 100a10 10 0 0 0 10 -10v-8a10 10 0 0 0 -10 -10"></path></g><path d="M718.0 72h20"></path></g><path d="M738.0 72h10"></path><g class="terminal ">
+<path d="M748.0 72h0.0"></path><path d="M793.5 72h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="748.0" y="61"></rect><text x="770.75" y="76">")"</text></g></g><g class="non-terminal ">
+<path d="M267.0 28h0.0"></path><path d="M340.0 28h0.0"></path><text class="comment" x="303.5" y="33">arguments</text></g></g><path d="M803.5 72h10"></path><path d="M 813.5 72 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>

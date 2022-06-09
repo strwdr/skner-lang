@@ -1,0 +1,43 @@
+<svg class="railroad-diagram" height="103" viewBox="0 0 713.0 103" width="713.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style><g>
+<path d="M20 54v20m0 -10h137.5"></path><text style="text-anchor:start" x="20" y="49">returnStatement</text></g><path d="M157.5 64h10"></path><g class="terminal ">
+<path d="M167.5 64h0.0"></path><path d="M255.5 64h0.0"></path><rect height="22" rx="10" ry="10" width="88.0" x="167.5" y="53"></rect><text x="211.5" y="68">"return"</text></g><path d="M255.5 64h10"></path><path d="M265.5 64h10"></path><g>
+<path d="M275.5 64h0.0"></path><path d="M614.5 64h0.0"></path><rect class="group-box" height="47" rx="10" ry="10" width="339" x="275.5" y="36"></rect><g>
+<path d="M275.5 64h77.0"></path><path d="M537.5 64h77.0"></path><path d="M352.5 64a10 10 0 0 0 10 -10v0a10 10 0 0 1 10 -10"></path><g>
+<path d="M372.5 44h145.0"></path></g><path d="M517.5 44a10 10 0 0 1 10 10v0a10 10 0 0 0 10 10"></path><path d="M352.5 64h20"></path><g>
+<path d="M372.5 64h0.0"></path><path d="M517.5 64h0.0"></path><path d="M372.5 64h20"></path><g class="non-terminal ">
+<path d="M392.5 64h0.0"></path><path d="M497.5 64h0.0"></path><rect height="22" width="105.0" x="392.5" y="53"></rect><text x="445.0" y="68">expression</text></g><path d="M497.5 64h20"></path></g><path d="M517.5 64h20"></path></g><g class="non-terminal ">
+<path d="M275.5 28h0.0"></path><path d="M614.5 28h0.0"></path><text class="comment" x="445.0" y="33">expression type must match function return type</text></g></g><path d="M614.5 64h10"></path><path d="M624.5 64h10"></path><g class="terminal ">
+<path d="M634.5 64h0.0"></path><path d="M663.0 64h0.0"></path><rect height="22" rx="10" ry="10" width="28.5" x="634.5" y="53"></rect><text x="648.75" y="68">;</text></g><path d="M663.0 64h10"></path><path d="M 673.0 64 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>

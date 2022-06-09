@@ -1,0 +1,56 @@
+<svg class="railroad-diagram" height="426" viewBox="0 0 519.0 426" width="519.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style><g>
+<path d="M20 81v20m0 -10h86.5"></path><text style="text-anchor:start" x="20" y="76">statement</text></g><path d="M106.5 91h10"></path><g>
+<path d="M116.5 91h0.0"></path><path d="M469.0 91h0.0"></path><g>
+<path d="M116.5 91h0.0"></path><path d="M469.0 91h0.0"></path><path d="M116.5 91a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M136.5 61h86.75"></path><path d="M362.25 61h86.75"></path><rect height="22" width="139.0" x="223.25" y="50"></rect><text x="292.75" y="65">whileStatement</text></g><path d="M449.0 61a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><path d="M116.5 91a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M136.5 31h99.5"></path><path d="M349.5 31h99.5"></path><rect height="22" width="113.5" x="236.0" y="20"></rect><text x="292.75" y="35">ifStatement</text></g><path d="M449.0 31a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path><path d="M116.5 91h20"></path><g class="non-terminal ">
+<path d="M136.5 91h69.75"></path><path d="M379.25 91h69.75"></path><rect height="22" width="173.0" x="206.25" y="80"></rect><text x="292.75" y="95">functionDefinition</text></g><path d="M449.0 91h20"></path><path d="M116.5 91a10 10 0 0 1 10 10v130a10 10 0 0 0 10 10"></path><g>
+<path d="M136.5 241h0.0"></path><path d="M449.0 241h0.0"></path><g>
+<path d="M136.5 241h0.0"></path><path d="M410.5 241h0.0"></path><path d="M136.5 241a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M156.5 211h56.0"></path><path d="M334.5 211h56.0"></path><rect height="22" width="122.0" x="212.5" y="200"></rect><text x="273.5" y="215">functionCall</text></g><path d="M390.5 211a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><path d="M136.5 241a10 10 0 0 0 10 -10v-40a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M156.5 181h39.0"></path><path d="M351.5 181h39.0"></path><rect height="22" width="156.0" x="195.5" y="170"></rect><text x="273.5" y="185">lambdaDefinition</text></g><path d="M390.5 181a10 10 0 0 1 10 10v40a10 10 0 0 0 10 10"></path><path d="M136.5 241a10 10 0 0 0 10 -10v-70a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M156.5 151h39.0"></path><path d="M351.5 151h39.0"></path><rect height="22" width="156.0" x="195.5" y="140"></rect><text x="273.5" y="155">lambdaAssignment</text></g><path d="M390.5 151a10 10 0 0 1 10 10v70a10 10 0 0 0 10 10"></path><path d="M136.5 241a10 10 0 0 0 10 -10v-100a10 10 0 0 1 10 -10"></path><g class="non-terminal ">
+<path d="M156.5 121h73.0"></path><path d="M317.5 121h73.0"></path><rect height="22" width="88.0" x="229.5" y="110"></rect><text x="273.5" y="125">deletion</text></g><path d="M390.5 121a10 10 0 0 1 10 10v100a10 10 0 0 0 10 10"></path><path d="M136.5 241h20"></path><g class="terminal ">
+<path d="M156.5 241h81.5"></path><path d="M309.0 241h81.5"></path><rect height="22" rx="10" ry="10" width="71.0" x="238.0" y="230"></rect><text x="273.5" y="245">"exit"</text></g><path d="M390.5 241h20"></path><path d="M136.5 241a10 10 0 0 1 10 10v34a10 10 0 0 0 10 10"></path><g>
+<path d="M156.5 295h7.0"></path><path d="M383.5 295h7.0"></path><rect class="group-box" height="38" rx="10" ry="10" width="220" x="163.5" y="276"></rect><g class="non-terminal ">
+<path d="M163.5 295h36.25"></path><path d="M347.25 295h36.25"></path><rect height="22" width="147.5" x="199.75" y="284"></rect><text x="273.5" y="299">returnStatement</text></g><g class="non-terminal ">
+<path d="M163.5 268h0.0"></path><path d="M383.5 268h0.0"></path><text class="comment" x="273.5" y="273">callable only in function body</text></g></g><path d="M390.5 295a10 10 0 0 0 10 -10v-34a10 10 0 0 1 10 -10"></path><path d="M136.5 241a10 10 0 0 1 10 10v126a10 10 0 0 0 10 10"></path><g>
+<path d="M156.5 387h0.0"></path><path d="M390.5 387h0.0"></path><rect class="group-box" height="68" rx="10" ry="10" width="234" x="156.5" y="338"></rect><g>
+<path d="M156.5 387h44.5"></path><path d="M346.0 387h44.5"></path><path d="M201.0 387a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path><g class="terminal ">
+<path d="M221.0 357h12.75"></path><path d="M313.25 357h12.75"></path><rect height="22" rx="10" ry="10" width="79.5" x="233.75" y="346"></rect><text x="273.5" y="361">"break"</text></g><path d="M326.0 357a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><path d="M201.0 387h20"></path><g class="terminal ">
+<path d="M221.0 387h0.0"></path><path d="M326.0 387h0.0"></path><rect height="22" rx="10" ry="10" width="105.0" x="221.0" y="376"></rect><text x="273.5" y="391">"continue"</text></g><path d="M326.0 387h20"></path></g><g class="non-terminal ">
+<path d="M156.5 330h0.0"></path><path d="M390.5 330h0.0"></path><text class="comment" x="273.5" y="335">callable only in while statement</text></g></g><path d="M390.5 387a10 10 0 0 0 10 -10v-126a10 10 0 0 1 10 -10"></path></g><path d="M410.5 241h10"></path><g class="terminal ">
+<path d="M420.5 241h0.0"></path><path d="M449.0 241h0.0"></path><rect height="22" rx="10" ry="10" width="28.5" x="420.5" y="230"></rect><text x="434.75" y="245">;</text></g></g><path d="M449.0 241a10 10 0 0 0 10 -10v-130a10 10 0 0 1 10 -10"></path></g></g><path d="M469.0 91h10"></path><path d="M 479.0 91 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>

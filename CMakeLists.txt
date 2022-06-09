@@ -1,0 +1,121 @@
+cmake_minimum_required(VERSION 3.0)
+project(skner)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} "FindCppUnit.cmake")
+
+set(
+        SRC_FILES
+        src/lexer/Lexer.cpp
+        src/lexer/Lexer.h
+        src/lexer/structures/TokenType.h
+        src/lexer/structures/Token.h
+        src/structures/Position.h
+        src/interpreter/Interpreter.cpp
+        src/interpreter/Interpreter.h
+        src/lexer/Helpers.h
+        src/lexer/LexerTryBuildToken.cpp
+        src/error_handler/exeptions/ISknerException.h
+        src/error_handler/exeptions/LexerException.h
+        src/error_handler/ErrorHandler.h
+        src/error_handler/ErrorHandler.cpp
+        src/error_handler/ErrorHandlerMode.h
+        src/parser/Parser.cpp
+        src/parser/Parser.h
+        src/stream_provider/StreamProvider.cpp
+        src/stream_provider/StreamProvider.h
+        src/structures/ast/AstNodeType.h
+        src/structures/ast/ast_nodes/virtual/IAstNode.h
+        src/structures/ast/ast_nodes/virtual/IBinaryExpression.h
+        src/structures/ast/ast_nodes/statements/FunctionCallStatement.h
+        src/structures/ast/ast_nodes/statements/FunctionDefinition.h
+        src/structures/ast/ast_nodes/statements/IfStatement.h
+        src/structures/ast/ast_nodes/statements/WhileStatement.h
+        src/structures/ast/ast_nodes/statements/ConditionalStatementBlock.h
+        src/structures/ast/ast_nodes/statements/ReturnStatement.h
+        src/structures/ast/ast_nodes/statements/DeleteStatement.h
+        src/structures/ast/ast_nodes/statements/VariableAssignment.h
+        src/structures/ast/ast_nodes/statements/StatementBlock.h
+        src/structures/ast/ast_nodes/expressions/StringLiteral.h
+        src/structures/ast/ast_nodes/virtual/ILiteralNodeT.h
+        src/structures/ast/ast_nodes/statements/Exit.h
+        src/structures/ast/ast_nodes/statements/Continue.h
+        src/structures/ast/ast_nodes/statements/Break.h
+        src/structures/ast/ast_nodes/expressions/VariableReference.h
+        src/parser/Helpers.h
+        src/structures/ast/Datatypes.h
+        src/parser/ParseStatements.cpp
+        src/structures/ast/ast_nodes/expressions/logical/OrExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/AndExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/EqualExpression.h
+        src/structures/ast/ast_nodes/expressions/additive/AddExpression.h
+        src/parser/ParseExpressions.cpp
+        src/structures/ast/ast_visitor/ICommonVisitor.h
+        src/structures/ast/ast_visitor/IExpressionVisitor.h
+        src/structures/ast/ast_visitor/IStatementVisitor.h
+        src/structures/Typedefs.h
+        src/structures/ast/ast_visitor/HelperTraverser.h
+        src/structures/ast/ast_visitor/HelperTraverser.cpp
+        src/structures/ast/ast_nodes/NodesDeclarations.h
+        src/structures/ast/ast_nodes/NodesIncludes.h
+        src/structures/ast/ast_nodes/virtual/IExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/NotEqualExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/GreaterExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/GreaterEqualExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/LessEqualExpression.h
+        src/structures/ast/ast_nodes/expressions/logical/LessExpression.h
+        src/structures/ast/ast_nodes/expressions/multiplicative/ModuloExpression.h
+        src/structures/ast/ast_nodes/expressions/multiplicative/MultiplyExpression.h
+        src/structures/ast/ast_nodes/expressions/multiplicative/DivideExpression.h
+        src/structures/ast/ast_nodes/expressions/unary/EvaluateExpression.h
+        src/structures/ast/ast_nodes/expressions/unary/MinusExpression.h
+        src/structures/ast/ast_nodes/expressions/unary/NegateExpression.h
+        src/structures/ast/ast_nodes/common/BaseFunctionCall.h
+        src/structures/ast/ast_nodes/expressions/FunctionCallExpression.h
+        src/structures/ast/ast_nodes/common/BaseFunctionCall.cpp
+        src/error_handler/exeptions/InterpreterExeption.h
+        src/interpreter/StatementEvaluator.cpp
+        src/interpreter/ExpressionEvaluator.cpp
+        src/interpreter/Evaluator.h
+        src/interpreter/structures/Interruptions.h
+        src/structures/DataTypeVal.h
+        src/interpreter/StdLibFunctions.cpp
+        src/interpreter/EvaluatorCommonImpl.cpp
+        src/interpreter/Helpers.h)
+
+add_executable(
+        skner
+        src/main.cpp
+        ${SRC_FILES}
+)
+
+set(
+        TEST_FILES
+        src/tests/doctest.h
+        src/tests/testMain.cpp
+        src/tests/lexer/tokens/TestNumberLiterals.cpp
+        src/tests/lexer/tokens/TestBooleanLiterals.cpp
+        src/tests/lexer/tokens/TestStringLiterals.cpp
+        src/tests/lexer/tokens/TestKeywords.cpp
+        src/tests/helpers/SsLexer.h
+        src/tests/lexer/TestLexerMethods.cpp
+        src/tests/lexer/tokens/TestETX.cpp
+        src/tests/lexer/tokens/TestIdentifiers.cpp
+        src/tests/lexer/tokens/TestOperators.cpp
+        src/tests/lexer/tokens/TestComments.cpp
+        src/tests/lexer/tokens/TestWhitespaces.cpp
+        src/tests/parser/parse_methods/TestExpressions.cpp
+        src/tests/helpers/SsParser.h
+        src/tests/parser/parse_methods/TestFunctionCalls.cpp
+        src/tests/helpers/Helpers.h
+        src/tests/lexer/tokens/TestNewline.cpp
+        src/tests/parser/parse_methods/TestStatements.cpp
+        src/tests/interpreter/TestInterpreter.cpp
+        src/tests/helpers/SsEvaluator.h)
+
+
+add_executable(
+        tests
+        ${SRC_FILES}
+        ${TEST_FILES}
+)

@@ -1,0 +1,21 @@
+number a = 10;
+
+
+number function fib(number a) # funkcja licząca dany element ciągu Fibbonaciego
+    #println(a-1);
+   if(a < 2) return 1; end
+   return fib(a-1) + fib(a-2);
+end
+
+
+a = 1;
+while(a<1000000000)
+a = a + 1000;
+number c = 1;
+
+while(c < a)
+    c = c + 1;
+end
+println("iter", a);
+end
+

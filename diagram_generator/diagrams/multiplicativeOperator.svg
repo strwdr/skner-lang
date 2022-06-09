@@ -1,0 +1,39 @@
+<svg class="railroad-diagram" height="122" viewBox="0 0 342.5 122" width="342.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(.5 .5)">
+<style>/* <![CDATA[ */
+	svg.railroad-diagram {
+		background-color:hsl(30,20%,95%);
+	}
+	svg.railroad-diagram path {
+		stroke-width:3;
+		stroke:black;
+		fill:rgba(0,0,0,0);
+	}
+	svg.railroad-diagram text {
+		font:bold 14px monospace;
+		text-anchor:middle;
+	}
+	svg.railroad-diagram text.label{
+		text-anchor:start;
+	}
+	svg.railroad-diagram text.comment{
+		font:italic 12px monospace;
+	}
+	svg.railroad-diagram rect{
+		stroke-width:3;
+		stroke:black;
+		fill:hsl(120,100%,90%);
+	}
+	svg.railroad-diagram rect.group-box {
+		stroke: gray;
+		stroke-dasharray: 10 5;
+		fill: none;
+	}
+
+/* ]]> */
+</style><g>
+<path d="M20 51v20m0 -10h197.0"></path><text style="text-anchor:start" x="20" y="46">multiplicativeOperator</text></g><g>
+<path d="M217.0 61h0.0"></path><path d="M302.5 61h0.0"></path><path d="M217.0 61a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path><g class="terminal ">
+<path d="M237.0 31h0.0"></path><path d="M282.5 31h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="237.0" y="20"></rect><text x="259.75" y="35">"/"</text></g><path d="M282.5 31a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><path d="M217.0 61h20"></path><g class="terminal ">
+<path d="M237.0 61h0.0"></path><path d="M282.5 61h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="237.0" y="50"></rect><text x="259.75" y="65">"&#42;"</text></g><path d="M282.5 61h20"></path><path d="M217.0 61a10 10 0 0 1 10 10v10a10 10 0 0 0 10 10"></path><g class="terminal ">
+<path d="M237.0 91h0.0"></path><path d="M282.5 91h0.0"></path><rect height="22" rx="10" ry="10" width="45.5" x="237.0" y="80"></rect><text x="259.75" y="95">"%"</text></g><path d="M282.5 91a10 10 0 0 0 10 -10v-10a10 10 0 0 1 10 -10"></path></g><path d="M 302.5 61 h 20 m -10 -10 v 20 m 10 -20 v 20"></path></g></svg>
