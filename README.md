@@ -1,4 +1,4 @@
-# TKOM Project - Skner - dokumentacja końcowa
+# Projekt TKOM - Skner - dokumentacja końcowa
 Jakub Budrewicz
 
 ## Spis treści
